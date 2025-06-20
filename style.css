@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif; /* Change la police de tout le texte */
+    background-color: #f0f0f0; /* Donne une couleur de fond légère à la page */
+    margin: 40px; /* Ajoute un peu d'espace autour du contenu */
+    padding: 0;
+    color: #333; /* Couleur du texte principal */
+}
+
+h1 {
+    color: #0056b3; /* Couleur bleue pour le titre principal */
+    text-align: center; /* Centre le titre */
+    border-bottom: 2px solid #0056b3; /* Ajoute une ligne bleue en dessous */
+    padding-bottom: 10px; /* Espace entre le titre et la ligne */
+}
+
+p {
+    font-size: 1.1em; /* Augmente légèrement la taille du paragraphe */
+    line-height: 1.6; /* Améliore la lisibilité en espaçant les lignes */
+    text-align: center; /* Centre le paragraphe aussi */
+    max-width: 600px; /* Limite la largeur du paragraphe pour ne pas qu'il soit trop long */
+    margin: 20px auto; /* Centre le paragraphe sur la page */
+    background-color: #ffffff; /* Fond blanc pour le paragraphe */
+    padding: 20px; /* Espacement intérieur */
+    border-radius: 8px; /* Bords légèrement arrondis */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ajoute une légère ombre pour un effet 3D */
+/* Styles spécifiques pour les nouvelles sections */
+header {
+    background: #2c3e50; /* Couleur d'en-tête plus foncée */
+    color: #ecf0f1; /* Texte clair */
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    color: #ecf0f1;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #bdc3c7;
+}
+
+main {
+    padding: 30px;
+    max-width: 1000px; /* Plus large pour plus de contenu */
+    margin: 20px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 25px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+section h2 {
+    text-align: center;
+    color: #2980b9; /* Bleu plus vif pour les titres de section */
+    margin-bottom: 25px;
+    font-size: 2em;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 10px;
+    display: inline-block; /* Pour que la ligne soit juste sous le titre */
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
+}
+
+.offre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.offre:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.offre h3 {
+    color: #34495e; /* Titre d'offre */
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.offre p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.7;
+    max-width: 700px;
+}
+
+.bouton-principal {
+    display: inline-block;
+    background: #27ae60; /* Bouton vert pour l'action principale (achat) */
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px; /* Bouton arrondi */
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 10px rgba(39, 174, 96, 0.3);
+}
+
+.bouton-principal:hover {
+    background: #2ecc71;
+    box-shadow: 0 6px 15px rgba(39, 174, 96, 0.4);
+}
+
+.bouton-secondaire {
+    display: inline-block;
+    background: #3498db; /* Bouton bleu pour l'action secondaire (gratuit) */
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background 0.3s ease;
+}
+
+.bouton-secondaire:hover {
+    background: #2980b9;
+}
+
+.petit-texte {
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 10px;
+}
+
+.bouton-voir-plus {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.1em;
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.bouton-voir-plus:hover {
+    color: #34495e;
+    text-decoration: underline;
+}
+
+footer {
+    background: #34495e; /* Pied de page plus foncé */
+    color: #ecf0f1;
+    padding: 25px;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 5px solid #2c3e50;
+}
+
+footer a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
